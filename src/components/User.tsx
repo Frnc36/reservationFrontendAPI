@@ -1,4 +1,3 @@
-import React from "react";
 import type { userType } from "../types/userType";
 
 interface UsersProps {

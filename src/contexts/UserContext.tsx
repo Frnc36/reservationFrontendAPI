@@ -1,7 +1,6 @@
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 import type { userType } from "../types/userType";
 import { getUsers } from "../services/UserService";
-import User from "../components/User";
 
 interface UserContextType {
   userList: userType[];

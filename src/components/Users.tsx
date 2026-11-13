@@ -1,4 +1,3 @@
-import React from "react";
 import { useUserContext } from "../contexts/UserContext";
 import User from "./User";
 
@@ -14,8 +13,8 @@ function Users() {
 
   return (
     <div>
-      {userList.map((user, i) => {
-        return <User user={user} key={i} />;
+      {userList.map((user) => {
+        return <User user={user} key={user.id} />;
       })}
     </div>
   );
